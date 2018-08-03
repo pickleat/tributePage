@@ -1,0 +1,116 @@
+/*
+Color palette
+Black: rgba(0, 0, 0, 1);
+Green: rgba(39, 73, 59, 1);
+Gold: rgba(220, 180, 113, 1);
+Grey: rgba(110, 114, 113, 1);
+White: rgba(255, 255, 255, 1);
+*/
+
+
+#main {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(39, 73, 59, 1);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  min-width: 500px;
+  min-height: 100px;
+}
+#title {
+  font-size: 60px;
+  text-align: center;
+  color: rgba(39, 73, 59, 1);
+  font-weight: 600;
+  padding-bottom: 5px;
+  margin-bottom: -10px;
+  background-color: rgba(255, 255, 255, .8);
+}
+#img-div {
+  max-width: 50%;
+  margin: -5px;
+  margin-top: 20px;
+  border:5px solid rgba(220, 180, 113, 1);
+  border-radius: 10px;
+  background: rgba(220, 180, 113, 1);
+  padding-bottom: 20px;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+#img-caption {
+  font-size: 12px;
+  font-weight: lighter;
+  font-style: italic;
+  color: rgba(39, 73, 59, 1);
+  text-align: center;
+  margin-top: -15px;
+}
+
+#tribute-info {
+  background-color: rgba(220, 180, 113, 1);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  width: inherit;
+  color: rgba(39, 73, 59, 1);
+  max-width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  background-color:  rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+  padding-bottom: 20px;
+  margin-bottom: -30px;
+  width: inherit;
+  color: rgba(220, 180, 113, 1);
+  max-width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  background-color: rgba(220, 180, 113, 1);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  width: inherit;
+  color: rgba(39, 73, 59, 1);
+  max-width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tribute-link {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  width: inherit;
+  color: rgba(39, 73, 59, 1);
+  max-width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tribute-link:hover {
+  color: rgba(220, 180, 113, 1);
+}
